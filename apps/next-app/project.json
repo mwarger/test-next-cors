@@ -25,6 +25,7 @@
       "options": {
         "buildTarget": "next-app:build",
         "dev": true
+        // "port": 5000  // change this to a different port and cors no longer works
       },
       "configurations": {
         "development": {
