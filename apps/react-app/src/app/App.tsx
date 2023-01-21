@@ -9,7 +9,7 @@ export default function App() {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: 'http://localhost:5000/api/trpc',
+          url: 'http://localhost:4200/api/trpc', // update to 5000 for reproduction
         }),
       ],
     })
